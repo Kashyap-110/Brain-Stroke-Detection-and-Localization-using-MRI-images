@@ -1,0 +1,13 @@
+train: ../yolo//train/images
+val: ..yolo//valid/images
+
+
+nc: 2
+names: ['normal', 'stroke']
+
+roboflow:
+  workspace: traffic-bfp0e
+  project: brain-mq0a4
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/traffic-bfp0e/brain-mq0a4/dataset/3
